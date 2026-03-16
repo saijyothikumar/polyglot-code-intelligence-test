@@ -1,0 +1,9 @@
+* text=auto
+*.py linguist-language=Python
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+*.go linguist-language=Go
+*.java linguist-language=Java
+*.c linguist-language=C
+*.sql linguist-language=SQL
+*.md text

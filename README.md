@@ -34,3 +34,13 @@ Use this repo to benchmark:
 
 ## Maintenance
 Update docs/architecture_overview.md, docs/api_design.md, and ARCHITECTURE.md whenever new scenarios are added so expected vs. actual graphs stay aligned.
+
+# Example Queries
+
+Questions AI systems should attempt:
+
+1. Detect circular dependencies
+2. Identify dead code
+3. Find unused imports
+4. Build dependency graph
+5. Trace cross-language references

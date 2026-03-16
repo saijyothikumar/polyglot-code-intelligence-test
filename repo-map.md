@@ -1,0 +1,12 @@
+# Repo Map
+- README.md: overview and example queries
+- ARCHITECTURE.md: dependency rules and defect checklist
+- docs/: architecture_overview, api_design
+- backend/: auth, users, payments, jobs, shared (utils/models), unused_service.py, legacy_helper.c
+- frontend/: components, pages, api
+- scripts/: deploy.sh, migrate_db.py, seed_data.py, healthcheck.go
+- configs/: config.yaml, logging.yaml, env.example, app.toml
+- data/: schema.sql, seed.sql, sample_data.json
+- tests/: pytest suites for auth/users/payments
+- experiments/: ai_resume_parser.py, job_scraper.py, temp_script.py, LegacyJobRunner.java
+- copilot-instructions.md (ignored via .gitignore)
