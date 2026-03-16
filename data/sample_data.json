@@ -1,0 +1,14 @@
+{
+  "users": [
+    {"id": "alice", "email": "alice@example.com", "disabled": false},
+    {"id": "bob", "email": "bob@example.com", "disabled": false}
+  ],
+  "jobs": [
+    {"user_id": "alice", "name": "email_receipt", "status": "done"},
+    {"user_id": "bob", "name": "cleanup", "status": "queued"}
+  ],
+  "applications": [
+    {"user_id": "alice", "position": "Engineer", "status": "submitted"},
+    {"user_id": "bob", "position": "Designer", "status": "draft"}
+  ]
+}

@@ -1,0 +1,17 @@
+[service]
+name = "polyglot-backend"
+host = "0.0.0.0"
+port = 8080
+
+[database]
+engine = "postgres"
+host = "localhost"
+port = 5432
+user = "app_user"
+password = "changeme"
+name = "polyglot"
+
+[features]
+enable_payments = true
+enable_experiments = true
+legacy_mode = false
